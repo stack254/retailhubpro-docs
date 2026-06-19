@@ -9,6 +9,8 @@ export default {
       { text: 'Getting Started', link: '/getting-started' },
       { text: 'Onboarding', link: '/onboarding/register-business' },
       { text: 'Operations', link: '/operations/manage-stores' },
+      { text: 'Payments', link: '/payments/' },
+      { text: 'OnePOS+', link: '/onepos/overview' },
       { text: 'Troubleshooting', link: '/troubleshooting/common-setup-issues' }
     ],
     sidebar: [
@@ -34,7 +36,29 @@ export default {
           { text: 'Manage Stores', link: '/operations/manage-stores' },
           { text: 'Manage Users', link: '/operations/manage-users' },
           { text: 'Inventory Basics', link: '/operations/inventory-basics' },
+          { text: 'Barcode Scanning', link: '/operations/barcode-scanning' },
           { text: 'Reports and Subscription', link: '/operations/reports-and-subscription' }
+        ]
+      },
+      {
+        text: 'Payments',
+        items: [
+          { text: 'Payment Methods', link: '/payments/' },
+          { text: 'M-Pesa Setup', link: '/payments/mpesa-setup' },
+          { text: 'Use M-Pesa at the POS', link: '/payments/mpesa-at-pos' }
+        ]
+      },
+      {
+        text: 'OnePOS+',
+        items: [
+          { text: 'Overview', link: '/onepos/overview' },
+          { text: 'Android Setup', link: '/onepos/android-setup' }
+        ]
+      },
+      {
+        text: 'Billing',
+        items: [
+          { text: 'Plans and Billing', link: '/billing/plans-and-billing' }
         ]
       },
       {
